@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>ACM CPU-OP APPLICATION</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body class="container mt-5">
+    <div class="d-flex justify-content-center">
+        <div class="mainbody" style="width: 90%">
+            <div class="mainbody-body">
+                <h1 class="mainbody-title">CPU SCHEDULER</h1>
+                <div class="temp">
+                    <label for="definealgo">Select Scheduling Algorithm:</label>
+                    <select class="yehchalkyunahiraha" id="definealgo">
+                        <option value="FCFS">First Come, First Served (FCFS)</option>
+                        <option value="SJF">Shortest Job First (SJF)</option>
+                        <option value="LJF">Longest Job First (LJF)</option>
+                        <option value="RR">Round Robin (RR)</option>
+                        <option value="Priority">Priority Scheduling</option>
+                        <option value="HRRN">Highest Response Ratio Next (HRRN)</option>
+                        <option value="Auto">Automatic Scheduling</option>
+                    </select>
+                </div>
+                <div class="temp">
+                    <label for="tempclass">Tell me the Processes to execute:</label>
+                    <textarea class="yehchalkyunahiraha" id="tempclass" placeholder="Format: identity, Arrival Time, Burst Time,priority and seperated by a ';'" rows="3"></textarea>
+                </div>
+                <button class="btn btn-primary" id="sundarbutton">Get the Stats!</button>
+                <pre id="result" class="mt-3"></pre>
+            </div>
+        </div>
+        <div class="mainbody" id="sidebox" style="width: 20%; display: none;">
+            <div class="mainbody-body">
+                <h1 class="mainbody-title">Statistics</h1>
+                <p id="taroundavg"></p>
+                <p id="twaitavg"></p>
+                <p id="cpuOverhead"></p> 
+            </div>
+        </div>
+    </div>   
+    <script src="renderer.js"></script> 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

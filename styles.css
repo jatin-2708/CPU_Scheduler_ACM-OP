@@ -1,0 +1,76 @@
+body {
+  background-color: #105e74; /* Light background */
+  color: #333333; /* Dark text */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Example font family */
+}
+
+.mainbody {
+  max-width: 600px;
+  margin: auto;
+  background-color: #ffffff; /* White mainbody background */
+  border: 1px solid #dddddd; /* Light border */
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+}
+
+.mainbody:hover {
+  transform: translateY(-8px); /* Lift mainbody more on hover */
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2); /* Increased shadow on hover */
+}
+
+.yehchalkyunahiraha {
+  background-color: #f7f7f7; /* Lighter input background */
+  color: #333333;
+  border: 1px solid #cccccc; /* Light border */
+  border-radius: 6px;
+  padding: 1px;
+  transition: background-color 0.3s ease-out, border-color 0.3s ease-out;
+}
+
+.yehchalkyunahiraha:focus {
+  background-color: #e0e0e0; /* Light gray on focus */
+  border-color: #999999; /* Darker border on focus */
+}
+
+.btn-primary {
+  background-color: #ff4081; /* Vibrant pink button */
+  border-color: #ff4081;
+  color: #ffffff;
+  padding: 14px 28px; /* Larger padding for button */
+  text-transform: uppercase;
+  border-radius: 8px;
+  transition: background-color 0.3s ease-out, transform 0.2s ease-out;
+}
+
+.btn-primary:hover {
+  background-color: #d81b60; /* Darker pink on hover */
+  transform: scale(1.05); /* Scale up button on hover */
+}
+
+#result {
+  background-color: #fafafa; /* Very light gray result box */
+  color: #333333;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-out;
+}
+
+#result:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Increased shadow on hover */
+}
+
+#sidebox {
+  max-width: 400px; /* Increased width for average box */
+  margin: auto;
+  background-color: #ffffff; /* White average box */
+  border: 1px solid #dddddd; /* Light border */
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-out;
+}
+
+#sidebox:hover {
+  transform: scale(1.02); /* Scale up box on hover */
+}

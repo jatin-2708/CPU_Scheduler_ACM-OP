@@ -1,0 +1,15 @@
+{
+  "name": "acmopenproject",
+  "version": "1.0.0",
+  "description": "cpuscheduler",
+  "main": "main.js",
+  "author": "Jatin Khandelwal",
+  "scripts": {
+    "dev": "electronmon .",
+    "start": "electron ."
+  },
+  "dependencies": {
+    "electron": "^21.0.0"
+  },
+  "devDependencies": {}
+}
